@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>www.future-residency.com</title>
+<link rel="icon" href="images/logo1.png">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/fu.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="buynsell.html">BUY/ SELL & RENT</a></li>
+                    <li><a href="blog.html">AGENT FINDER</a></li>
+                    <li><a href="contact.html">CONTACT </a></li>
+                    <li><a href="mort.html">MORTGAGE</a></li>
+                    <li><a href="advertise.html">Advertise</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Contact Future Residency Limited</h1>
+    </section>
+    
+    
+<!------- Contact Us ------->
+
+    
+    <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.217547002249!2d96.12684291474228!3d16.81556038842361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ebbbf8374b25%3A0x99763604b6306ad1!2sGUSTO%20University!5e0!3m2!1sen!2smm!4v1669665240338!5m2!1sen!2smm" width="720" height="445" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+    
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Building Shophouse 2B</h5>
+                            <p>Times City Complex, Yangon</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>09-797979797</h5>
+                            <p>Monday to Saturday 10 Am to 6 Pm</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>futurerlimited@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form method="post" action="contact-form-handler.php">
+                    <input type="text" name="name" placeholder="I am...." required>
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form> 
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>For years, millions of home shoppers have turned to Future Residency Limited to find their dream home. <br>Operated by GUSTO, Inc., Future Residency Limited offers a comprehensive list of for-sale properties, as well as the information and tools to make informed real estate decisions. <br>Today, more than ever, Future Residency Limited is The Home of Home Search℠.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <a href="https://www.youtube.com/watch?v=Odh9ddPUkEY" class="footer-link"><p>Copyright © 2022 <i class="fa fa-heart-o"></i>All Rights Reserved</p></a>
+</section>    
+
+
+<!-- -JavaScript for toggle menu---- -->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script> 
+
+    
+</body>
+</html>    

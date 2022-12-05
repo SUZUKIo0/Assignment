@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>www.future-residency.com</title>
+<link rel="icon" href="images/logo1.png">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/fu.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="buynsell.html">BUY/ SELL & RENT</a></li>
+                    <li><a href="blog.html">AGENT FINDER</a></li>
+                    <li><a href="contact.html">CONTACT </a></li>
+                    <li><a href="mort.html">MORTGAGE</a></li>
+                    <li><a href="advertise.html">Advertise</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Future Residency Limited</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>No matter what stage of the home journey you may be in.</h1>     
+            <p>We’re here to empower you by making all things home simple, efficient, and enjoyable. Future Residency Limited also offers homeowners a bevy of useful tools and resources through the My Home℠ dashboard. My Home℠ dashboard allows property owners to manage their home like the important investment it is by tracking their home’s value over time, researching and managing home improvements, and scouting other similar properties in the neighborhood.</p>
+            <a href="signin.html" class="hero-btn red-btn">SIGN IN NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>For years, millions of home shoppers have turned to Future Residency Limited to find their dream home. <br>Operated by GUSTO, Inc., Future Residency Limited offers a comprehensive list of for-sale properties, as well as the information and tools to make informed real estate decisions. <br>Today, more than ever, Future Residency Limited is The Home of Home Search℠.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <a href="https://www.youtube.com/watch?v=Odh9ddPUkEY" class="footer-link"><p>Copyright © 2022 <i class="fa fa-heart-o"></i>All Rights Reserved</p></a>
+</section>    
+
+
+<!-- -JavaScript for toggle menu---- -->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0";
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px";
+}
+</script> 
+
+    
+</body>
+</html>    
